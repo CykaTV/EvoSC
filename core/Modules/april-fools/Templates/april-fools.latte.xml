@@ -75,7 +75,7 @@ main() {
 
     colorPrimary = TL::ToColor("{config('colors.ui.widget.header.color')|noescape}");
     colorSecondary = colorSecondary;
-    duration = 1000;
+    duration = 400;
 
     width = frame.Size[0];
     height = frame.Size[1];
